@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'ui/home_map_page.dart';
 
-class AmsMapaApp extends StatelessWidget {
-  const AmsMapaApp({super.key, this.home});
+class MtSanAndresApp extends StatelessWidget {
+  const MtSanAndresApp({super.key, this.home});
 
   final Widget? home;
 
@@ -13,7 +13,7 @@ class AmsMapaApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'AMS MAPA',
+      title: 'MT San Andres',
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: seedColor),

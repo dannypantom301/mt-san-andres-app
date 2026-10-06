@@ -1,7 +1,7 @@
-# DOCUMENTACION COMPLETA - AMS MAPA
+# DOCUMENTACION COMPLETA - MT SAN ANDRES
 
 Version documentada: `1.3.4+9`  
-Aplicacion: `AMS MAPA`  
+Aplicacion: `MT San Andres`  
 Paquete Android: `com.dannyestrada.mtsanandres_base`  
 Proyecto Firebase revisado: `mt-sanandres-app`  
 Fecha de documentacion: 2026-08-16
@@ -10,7 +10,7 @@ Fecha de documentacion: 2026-08-16
 
 ## 1. Resumen General
 
-AMS MAPA es una aplicacion Flutter para gestion tecnica en campo mediante tecnologia geoespacial. Su objetivo principal es permitir que un tecnico o supervisor pueda cargar mapas anteriores en formato KML/KMZ, visualizar activos en mapa, organizar rutas, crear tareas, registrar evidencias, guardar observaciones, revisar novedades y trabajar aun cuando no exista conexion constante.
+MT San Andres es una aplicacion Flutter para gestion tecnica en campo mediante tecnologia geoespacial. Su objetivo principal es permitir que un tecnico o supervisor pueda cargar mapas anteriores en formato KML/KMZ, visualizar activos en mapa, organizar rutas, crear tareas, registrar evidencias, guardar observaciones, revisar novedades y trabajar aun cuando no exista conexion constante.
 
 La app esta disenada como una solucion `local-first`: los datos se guardan primero en el dispositivo y se mantiene una cola de cambios pendientes para sincronizacion. En la version actual, esa sincronizacion esta modelada localmente, pero todavia no envia datos a Firebase ni a un backend externo.
 
@@ -845,7 +845,7 @@ Representa el estado completo local.
 Archivo generado:
 
 ```text
-C:\Users\CONVENIO\Documents\Codex\2026-07-16\c\outputs\version_1_3_4\AMSMAPA_V1_3_4_interfaz_limpia_db_firebase_arm64.apk
+C:\Users\CONVENIO\Documents\Codex\2026-07-16\c\outputs\version_1_3_4\MT_SAN_ANDRES_V1_3_4_interfaz_limpia_db_firebase_arm64.apk
 ```
 
 Recomendacion:
@@ -1101,13 +1101,13 @@ Firebase fue revisado y existe, pero la app todavia no tiene SDK Firebase integr
 ### APK
 
 ```text
-C:\Users\CONVENIO\Documents\Codex\2026-07-16\c\outputs\version_1_3_4\AMSMAPA_V1_3_4_interfaz_limpia_db_firebase_arm64.apk
+C:\Users\CONVENIO\Documents\Codex\2026-07-16\c\outputs\version_1_3_4\MT_SAN_ANDRES_V1_3_4_interfaz_limpia_db_firebase_arm64.apk
 ```
 
 ### Codigo Fuente
 
 ```text
-C:\Users\CONVENIO\Documents\Codex\2026-07-16\c\outputs\version_1_3_4\AMSMAPA_V1_3_4_codigo_fuente.zip
+C:\Users\CONVENIO\Documents\Codex\2026-07-16\c\outputs\version_1_3_4\MT_SAN_ANDRES_V1_3_4_codigo_fuente.zip
 ```
 
 ### Notas de Version
@@ -1119,7 +1119,7 @@ C:\Users\CONVENIO\Documents\Codex\2026-07-16\c\outputs\version_1_3_4\NOTAS_VERSI
 ### Documentacion Completa
 
 ```text
-C:\Users\CONVENIO\Documents\Codex\2026-07-16\c\outputs\DOCUMENTACION_COMPLETA_AMS_MAPA_V1_3_4.md
+C:\Users\CONVENIO\Documents\Codex\2026-07-16\c\outputs\DOCUMENTACION_COMPLETA_MT_SAN_ANDRES_V1_3_4.md
 ```
 
 ---
@@ -1166,6 +1166,6 @@ Plataforma de backend de Google. En esta app esta revisado y disponible como pro
 
 ## 21. Estado Final
 
-AMS MAPA V1.3.4 funciona como una aplicacion local-first para gestion tecnica en campo. La app ya permite operar mapas, activos, rutas, tareas, evidencias, observaciones, historial, ubicacion exacta y diagnostico de base local. Firebase existe y esta activo en el proyecto, pero todavia falta integrar el SDK en Flutter para sincronizacion real.
+MT San Andres V1.3.4 funciona como una aplicacion local-first para gestion tecnica en campo. La app ya permite operar mapas, activos, rutas, tareas, evidencias, observaciones, historial, ubicacion exacta y diagnostico de base local. Firebase existe y esta activo en el proyecto, pero todavia falta integrar el SDK en Flutter para sincronizacion real.
 
 La prioridad tecnica recomendada para la siguiente version es conectar Firebase de forma segura y mantener la operacion offline como respaldo.

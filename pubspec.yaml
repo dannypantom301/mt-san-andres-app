@@ -1,5 +1,5 @@
 name: mtsanandres_base
-description: "AMS MAPA: visor operativo de activos en mapa con importacion KML/KMZ."
+description: "MT San Andres: visor operativo de activos en mapa con importacion KML/KMZ."
 publish_to: 'none'
 
 version: 1.3.4+9

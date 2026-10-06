@@ -1664,7 +1664,7 @@ class _HomeMapPageState extends State<HomeMapPage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'AMS MAPA',
+                          'MT San Andres',
                           style:
                               Theme.of(context).textTheme.titleLarge?.copyWith(
                                     fontWeight: FontWeight.w800,

@@ -3,5 +3,5 @@ import 'package:flutter/material.dart';
 import 'app.dart';
 
 void main() {
-  runApp(const AmsMapaApp());
+  runApp(const MtSanAndresApp());
 }

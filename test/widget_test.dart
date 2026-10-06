@@ -70,7 +70,7 @@ void main() {
     SharedPreferences.setMockInitialValues({});
 
     await tester.pumpWidget(
-      AmsMapaApp(
+      MtSanAndresApp(
         home: HomeMapPage(
           initialPanelOpen: true,
           mapBuilder: (context, configuration) {
@@ -89,9 +89,8 @@ void main() {
     expect(find.text('Mapa de prueba: 0'), findsOneWidget);
     expect(find.text('0/0'), findsOneWidget);
     expect(find.text('0 pend.'), findsOneWidget);
-    expect(find.text('AMS MAPA', skipOffstage: false), findsWidgets);
+    expect(find.text('MT San Andres', skipOffstage: false), findsWidgets);
     expect(find.text('Importar KML/KMZ', skipOffstage: false), findsOneWidget);
-    expect(find.text('Cajas', skipOffstage: false), findsWidgets);
 
     await tester.tap(find.text('Rutas').last);
     await tester.pumpAndSettle();
@@ -104,7 +103,7 @@ void main() {
     SharedPreferences.setMockInitialValues({});
 
     await tester.pumpWidget(
-      AmsMapaApp(
+      MtSanAndresApp(
         home: HomeMapPage(
           mapBuilder: (context, configuration) {
             return const ColoredBox(color: Color(0xFFE4EEF1));
@@ -136,7 +135,7 @@ void main() {
       (tester) async {
     SharedPreferences.setMockInitialValues({});
 
-    await tester.pumpWidget(const AmsMapaApp(home: HomeMapPage()));
+    await tester.pumpWidget(const MtSanAndresApp(home: HomeMapPage()));
     await tester.pump(const Duration(milliseconds: 100));
     await tester.pump(const Duration(seconds: 1));
 
